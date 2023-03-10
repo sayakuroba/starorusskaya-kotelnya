@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="device-width, initial-scale=1">
+    <title>Eleonora Mikhailova</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+   
+   
+<!-- Header --> 
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+           
+            <div class="user">
+                <div class="user__avatar">
+                    <img src="images/Background.png" alt="">
+                </div>
+                <div class="user__content">
+                    <div class="user__name">Элеонора Михайлова</div>
+                    <div class="user__prof">студентка 1-го курса<br>ДальнеВосточного Федерального Университета</div>
+                </div>
+            </div>
+            
+            <nav class="nav">
+                <!--<a class="nav__link" href="#">учёба</a>
+                <a class="nav__link" href="#1">обо мне</a> -->
+                <a class="nav__link" href="#2">фотографии</a>
+                <a class="nav__link  nav__link--btn" href="mailto:mikhailova.eol@students.dvfu.ru">связаться со мной</a>
+            </nav>
+        </div>
+    </div>
+</header>
+   
+
+<!-- Intro -->
+<section class="intro">
+    <div class="container">
+        <div class="intro__inner">
+           
+            <div class="intro__content">
+                <h2 class="intro__subtitle">Привет, меня зовут</h2>
+                <h1 class="intro__title">Элеонора</h1>
+                <div class="intro__text">Я учусь на направлении "Прикладная математика и информатика",<br>профиль "Системное программирование"</div>
+                
+                <div class="social">
+                    <a class="social__link" href="https://instagram.com/elya_mikhailova">
+                        <img src="images/instagram.png" alt="">
+                    </a>
+                    <a class="social__link" href="https://vk.com/elya_mikhailova">
+                        <img src="images/vk.png" alt="">
+                    </a>
+                    <a class="social__link" href="https://t.me/elya_mikhailova">
+                        <img src="images/telegram.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <img class="intro__photo" src="images/photo.png" alt="">
+        </div>
+            
+    </div>
+</section>   
+   
+   
+<!-- About me -->
+<div id="2" class="about">
+    <div class="container">
+       
+        <div class="about__nav">
+            <a class="about__nav-link" href="#" data-filter="all">Все фотографии</a>
+            <a class="about__nav-link" href="#" data-filter="dance">Танцы</a>
+            <a class="about__nav-link" href="#" data-filter="holiday">Праздники</a>
+            <a class="about__nav-link" href="#" data-filter="school">Школа</a>
+        </div>
+        
+        <div class="photo" id="photo">
+            <div class="photo__col" data-cat="dance">
+                <div class="item">
+                    <img class="item__image" src="images/workout.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Танцы</div>
+                        <div class="item__title">
+                            Тренировки
+                            <time class="item__date" datetime="2020-01-05 17:21">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="dance">
+                <div class="item">
+                    <img class="item__image" src="images/clip.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Танцы</div>
+                        <div class="item__title">
+                            Съёмки
+                            <time class="item__date" datetime="2020-12-13 11:44">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="holiday">
+                <div class="item">
+                    <img class="item__image" src="images/newyear.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Праздники</div>
+                        <div class="item__title">
+                            Новый год
+                            <time class="item__date" datetime="2020-12-30 16:36">2020</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="holiday">
+                <div class="item">
+                    <img class="item__image" src="images/birthday.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Праздники</div>
+                        <div class="item__title">
+                            День рождения
+                            <time class="item__date" datetime="2021-12-08 20:24">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="school">
+                <div class="item">
+                    <img class="item__image" src="images/vypusk.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Школа</div>
+                        <div class="item__title">
+                            Выпускной
+                            <time class="item__date" datetime="2021-07-19 19:37">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="school">
+                <div class="item">
+                    <img class="item__image" src="images/schoolfriends.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Школа</div>
+                        <div class="item__title">
+                            Школьные друзья
+                            <time class="item__date" datetime="2021-07-21 05:23">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="school">
+                <div class="item">
+                    <img class="item__image" src="images/photoset.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Школа</div>
+                        <div class="item__title">
+                            Фотосессия
+                            <time class="item__date" datetime="2021-07-21 05:21">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo__col" data-cat="school">
+                <div class="item">
+                    <img class="item__image" src="images/lessons.jpg" alt="">
+                    <div class="item__content">
+                        <div class="item__cat">Категория: Школа</div>
+                        <div class="item__title">
+                            Уроки
+                            <time class="item__date" datetime="2021-01-11 08:01">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</div>
+  
+   
+<!-- JS -->
+<script src="js/app.js"></script>
+   
+    
+</body>
+</html>
