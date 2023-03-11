@@ -1,1 +1,1 @@
-starorusskayakotelnya.ru
+starorusskaya-kotelnya.site
